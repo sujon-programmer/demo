@@ -1,0 +1,11 @@
+css
+color
+font-size:
+background-size:
+height 
+width
+id =specifies a unique id for an HTML element - (#)
+class = specifies one or more class names for an element -(.)
+text-align
+
+

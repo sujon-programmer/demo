@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explor basic css</title>
+    
+    <style>
+        *{
+            margin: 0;
+        }
+        p{
+            font-size: 20px;
+            background-color: aqua;
+            font-weight: 600;
+            
+        };
+        li{
+            color: indianred;
+            background-color: black;
+        }
+        .num1{
+            color:yellow;
+            background-color: aquamarine;
+            font-size: 20px;
+        }
+        .num-2{
+            color: red;
+            background-color: blue;
+            font-size: 21px;
+        }
+        .num-3{
+            color:blue;
+            background-color: red;
+            font-size: 22px;
+        }
+        .num-4{
+            color: green;
+            background-color: yellow;
+            font-size: 23px;
+        }
+        .num-5{
+            color:navy;
+            background-color:rosybrown ;
+            font-size: 24px;
+        }
+       .num-6{
+        color:blueviolet;
+        background-color:greenyellow;
+        font-size: 25px;
+       }
+       .num1,.num-2,.num-3,.num-4,.num-5,.num-6{
+        text-align: center;
+       }
+       .block{
+        margin: 1% 0 1% 0;
+       }
+
+       input[type="password"]{
+        color:red;
+       }
+       .blog-1,.blog-2,.blog-3{
+        margin: 10%;
+        padding: 50px;
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: aquamarine;
+       }
+       .blog-1 h3{
+        background-color: brown;
+       }
+       .blog-2 h3{
+        text-decoration: overline 5px rgb(187, 128, 243);
+       }
+       .blog-container{
+        border-left: 5px solid rgb(179, 4, 164);
+        padding-left: 10px;
+       }
+       .shadow{
+        box-shadow: 10px 10px 20px black;
+       }
+       .font-style{
+        font-family: 'Courier New', Courier, monospace;
+       }
+    </style>
+</head>
+<body>
+    <h3>learning basic css</h3>
+    <p>CSS meaning : cascading style syte </p>
+    <h2 style="background-color: blue; color: red;">Type of 3 css</h2>
+    <ul>
+        <li>Inline css</li>
+        <li>Internal css</li>
+        <li>External css</li>
+    </ul>
+    <ul style="background-image: url(../images/programming\ hero.jpg); background-repeat: no-repeat; background-size: contain;">
+        <li class="num1">css full meaning of Cascading style sheet</li>
+        <li class="num-2 block">css full meaning of Cascading style sheet</li>
+        <li class="num-3 block">css full meaning of Cascading style sheet</li>
+        <li class="num-4">css full meaning of Cascading style sheet</li>
+        <li class="num-5">css full meaning of Cascading style sheet</li>
+        <li class="num-6">css full meaning of Cascading style sheet</li>
+    </ul>
+
+    <input type="text">
+    <p><input type="password"></p>
+
+    <div class="blog-1 shadow font-style">
+        <div class="blog-container">
+            <h3>my first blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur eaque earum doloremque. Expedita, sapiente dignissimos recusandae dolores accusamus explicabo? Laborum hic debitis possimus repellat aliquam exercitationem eum fugiat? Ducimus!</p>
+        </div>
+    </div>
+    <div class="blog-2 font-style">
+        <h3>my second blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur eaque earum doloremque. Expedita, sapiente dignissimos recusandae dolores accusamus explicabo? Laborum hic debitis possimus repellat aliquam exercitationem eum fugiat? Ducimus!</p>
+    </div>
+    <div class="blog-3 font-style">
+        <h3>my third blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur eaque earum doloremque. Expedita, sapiente dignissimos recusandae dolores accusamus explicabo? Laborum hic debitis possimus repellat aliquam exercitationem eum fugiat? Ducimus!</p>
+    </div>
+</body>
+</html>
